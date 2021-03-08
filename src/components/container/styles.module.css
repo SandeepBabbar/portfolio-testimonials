@@ -1,0 +1,15 @@
+.Container{
+    padding: 26px 32px 32px 32px;
+    border-radius: 8px;
+    height: 100%;
+    position: relative;
+}
+.Container:after {
+    content:"";
+    position:absolute;
+    width:100%;
+    bottom:1px;
+    z-index:-1;
+    transform:scale(.9);
+    box-shadow: -20px 0px 40px 5px #000000;
+}

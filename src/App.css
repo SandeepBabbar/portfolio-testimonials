@@ -1,0 +1,70 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ECF2F8;
+  padding: 165px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+h1{
+  font-size: 20px;
+  line-height: auto;
+  font-weight: 600;
+}
+p{
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.App{
+  display: flex;
+}
+.SubContainer1{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Quote{
+  position: absolute;
+  right: 80px;
+  top: 0px;
+  z-index: 1;
+}
+.Wrapper{
+  margin-right: 3.5%;
+  margin-bottom: 24px
+}
+.Big{
+  width: 63.15%
+}
+.Small{
+  width: 29.82%
+}
+.Last{
+  width: 17.7vw
+}
+@media only screen and (max-width: 1000px) {
+  body{
+    padding: 71px 24px;
+  }
+  .App{
+    display: block;
+  }
+  .SubContainer1{
+    display: block;
+  }
+  .Wrapper{
+    margin-right: 0px;
+    margin-bottom: 24px
+  }
+  .Big{
+    width: 100%
+  }
+  .Small{
+    width: 100%
+  }
+  .Last{
+    width: 100%
+  }
+}
